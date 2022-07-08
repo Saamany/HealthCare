@@ -24,7 +24,7 @@ class _BfiCalculatorState extends State<BfiCalculator> {
       child: Scaffold(
         appBar: AppBar(
           title: Text(
-            "BFI Calculator",
+            "BFI Rechner",
             style: TextStyle(color: Colors.black),),
           elevation: 0.0,
           backgroundColor: Color(0xfffafafa),

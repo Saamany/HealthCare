@@ -27,7 +27,7 @@ class _KalorienCalculatorState extends State<KalorienCalculator> {
 
         appBar: AppBar(
           title: Text(
-            "Kalorien Calculator",
+            "Kalorien Rechner",
             style: TextStyle(color: Colors.black),),
           elevation: 0.0,
           backgroundColor: Color(0xfffafafa),
@@ -138,7 +138,7 @@ class _KalorienCalculatorState extends State<KalorienCalculator> {
                 SizedBox(
                   height: 8.0,
                 ),
-                Text("Wie sportlich/aktiv sind Sie? (0.95=wenig / 2.4=sehr)",
+                Text("Wie sportlich/aktiv sind Sie? (0.95=nur schlafend / 2.4=sportlich)",
                   style: TextStyle(
                     fontSize: 14.0,
                       fontWeight: FontWeight.bold,
